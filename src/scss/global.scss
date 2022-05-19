@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline-offset: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #000;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 0.3em;
+	transition: 0.2s;
+	opacity: 0.9;
+	&:hover {
+		opacity: 1;
+		transition: 0.2s;
+	}
+}
+
+input {
+	border-radius: 0.3em;
+	outline: none;
+	border: none;
+	background-color: rgb(212, 212, 212);
+}
+
+.green-btn {
+	background-color: rgb(95, 173, 101);
+	color: #fff;
+}
+.red-btn {
+	color: #fff;
+	background-color: rgb(197, 57, 57);
+}
